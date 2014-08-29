@@ -59,7 +59,7 @@
   ////////////////////////////////////////////////////////////
 
   App.ApplicationAdapter = DS.FirebaseAdapter.extend({
-    firebase: new Firebase('https://emberfire-demo.firebaseio.com')
+    firebase: new Firebase('https://playermanager.firebaseio.com/blog')
   });
 
   App.Post = DS.Model.extend({
